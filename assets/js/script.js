@@ -27,8 +27,6 @@ li.forEach((element, index) => {
       let modalE = document.querySelector(".modal");
 
       modalE.addEventListener("click", (e) => {
-        console.log(e.target);
-        console.log(img);
         if (e.target != img && e.target != figure && e.target != figcaption) {
           parentDiv.removeChild(modal);
         }
